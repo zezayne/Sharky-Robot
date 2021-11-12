@@ -31,7 +31,7 @@ async def on_message(message):
 
 
   if message.content.startswith('>help'):
-    await message.channel.send(">greeting\n>timetable\n>google\n>feel-special\n>owner-info\n>secret\n>romantic\n>kill\n>help\n>nitro_free\n>pig\nThere are more secret commands, just discover it yourself\nAnd also the bot is in beta stage so don't expect too much from it :D ") 
+    await message.channel.send(">greeting\n>timetable\n>google\n>feel-special\n>owner-info\n>secret\n>romantic\n>kill\n>help\n>nitro_free\n>pig\n>github\nThere are more secret commands, just discover it yourself or view the code on github !\nAnd also the bot is in beta stage so don't expect too much from it :D ") 
   
 
   if message.content.startswith('>secret'):
@@ -72,7 +72,8 @@ async def on_message(message):
   if message.content.startswith('copemheimer'):
     await message.channel.send('Now I become death, the destroyer of worlds.')
   
-  
+   if message.content.startswith('>github'):
+    await message.channel.send('https://github.com/zezayne/Sharky-Robot')
   
   
 
